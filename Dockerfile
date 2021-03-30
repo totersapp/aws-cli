@@ -4,6 +4,7 @@ RUN apk -v --update add \
         py-pip \
         groff \
         less \
+        git \
         curl \
         mailcap \
         && \
