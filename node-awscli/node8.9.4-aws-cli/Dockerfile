@@ -7,6 +7,8 @@ RUN apk add --no-cache \
     && pip3 install --upgrade pip \
     && pip3 install \
         awscli \
+    && apk -v --update add git \
+    && apk -v --purge del py3-pip \
     && rm -rf /var/cache/apk/*
 
 CMD ["node"]
