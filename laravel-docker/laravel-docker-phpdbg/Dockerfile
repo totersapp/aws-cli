@@ -16,6 +16,7 @@ RUN apk add --no-cache \
     curl \
     freetype-dev \
     g++ \
+    jq \
     gcc \
     git \
     imagemagick \
